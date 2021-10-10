@@ -1,0 +1,20 @@
+(executables
+ (names main)
+ (libraries alcotest
+	    smol
+	    smol_helpers))
+
+(rule
+ (alias buildtest)
+ (deps main.exe)
+ (action (progn)))
+
+(rule
+ (alias runtest_main)
+ (action (run %{exe:main.exe})))
+
+(rule
+ (alias runtest)
+ (package smol)
+ (deps (alias runtest_main))
+ (action (progn)))

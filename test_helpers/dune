@@ -1,0 +1,4 @@
+(library
+ (name smol_helpers)
+ (public_name smol.helpers)
+ (libraries alcotest smol))
