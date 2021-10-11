@@ -1,5 +1,4 @@
 open Smol
-open Smol_helpers
 module Monomial = Monomial.Make (Helpers.LString)
 
 let pp fmt x = Format.pp_print_string fmt (Monomial.to_string x)

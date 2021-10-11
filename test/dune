@@ -1,8 +1,10 @@
 (executables
  (names main)
  (libraries alcotest
-	    smol
-	    smol_helpers))
+	    smol))
+
+(rule
+ (action (copy# ../src/test_helpers/test_helpers.ml test_helpers.ml)))
 
 (rule
  (alias buildtest)

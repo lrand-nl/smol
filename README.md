@@ -1,3 +1,3 @@
-# SMOL
+# smol
 
-A non-exhaustive high-level math library for Ocaml
+small math ocaml library: a non-exhaustive high-level math library for Ocaml

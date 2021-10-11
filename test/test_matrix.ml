@@ -1,7 +1,6 @@
 (* TODO finish tests *)
 
 open Smol
-open Smol_helpers
 module K = Int
 module Matrix = Matrix.Make (Helpers.LString)
 module Vector = Vector.Make (Helpers.LString)

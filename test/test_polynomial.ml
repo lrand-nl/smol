@@ -1,5 +1,4 @@
 open Smol
-open Smol_helpers
 module K = Int
 module Poly = Polynomial.Make (Helpers.LString)
 module Polynomial = Poly.Make_Ring (K)

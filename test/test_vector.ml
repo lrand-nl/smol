@@ -1,5 +1,4 @@
 open Smol
-open Smol_helpers
 module K = Int
 module Vector = Vector.Make (Helpers.LString)
 module V = Vector.Make_R (K)
